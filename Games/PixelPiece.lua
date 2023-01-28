@@ -1,4 +1,3 @@
-
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Shy Hub - Pixel Piece", "BloodTheme")
 
@@ -39,23 +38,20 @@ end)
 
 --Alt Dupe
 local AltDupe = Window:NewTab("Quest Accept")
-local AltDupeSection = AltDupe:NewSection("Questus Acceptus Insta")
+local AltDupeSection = AltDupe:NewSection("Not Working ATM!")
 
 
 AltDupeSection:NewButton("Lvl 15", "", function()
-    local args = {[1] = {["Call"] = "Dialog",["NPCIsland"] = "Shells Town",["NPCName"] = "Furnton",["MessageType"] = "Finish"}}
-    game:GetService("ReplicatedStorage").Files.Remotes.SinglePlayers.ZShyOverPunchZ.NPCInteract:InvokeServer(unpack(args))
+    
 end)
 
 AltDupeSection:NewButton("Lvl 30", "", function()
-    local args = {[1] = {["Call"] = "Dialog",["NPCIsland"] = "Shells Town",["NPCName"] = "Namtar",["MessageType"] = "Finish"}}
-game:GetService("ReplicatedStorage").Files.Remotes.SinglePlayers.ZShyOverPunchZ.NPCInteract:InvokeServer(unpack(args))
+    w
 end)
 
 
 AltDupeSection:NewButton("Lvl 35", "", function()
-local args = {[1] = {["Call"] = "Dialog",["NPCIsland"] = "Orange Town",["NPCName"] = "Laft",["MessageType"] = "Finish"}}
-game:GetService("ReplicatedStorage").Files.Remotes.SinglePlayers.ZShyOverPunchZ.NPCInteract:InvokeServer(unpack(args))
+
 end)
 
 

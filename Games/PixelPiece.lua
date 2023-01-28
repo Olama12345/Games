@@ -46,7 +46,7 @@ AltDupeSection:NewButton("Lvl 15", "", function()
 end)
 
 AltDupeSection:NewButton("Lvl 30", "", function()
-    w
+    
 end)
 
 

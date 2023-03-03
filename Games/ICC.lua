@@ -53,8 +53,8 @@ end
 function AutoBuyEnergy()
     spawn(function()
     while getgenv().AutoBuyEnergy == true do 
-        wait(.2)
-        loadstring(game:HttpGet("https://pastebin.com/raw/Ws3T12Qj"))()
+        wait(1)
+        loadstring(game:HttpGet("https://pastebin.com/raw/Ws3T12Qj
 end
 end)
 end
@@ -62,7 +62,7 @@ end
 function AutoBuyFlavour()
     spawn(function()
     while getgenv().AutoBuyFlavour == true do 
-        wait(.2)
+        wait(1)
         loadstring(game:HttpGet("https://pastebin.com/raw/D7Ubmwax"))()
 end
 end)
@@ -71,7 +71,7 @@ end
 function AutoBuyRank()
     spawn(function()
     while getgenv().AutoBuyRank == true do 
-        wait(.2)
+        wait(1)
         local args = {[1] = "Shop",[2] = "Rank",[3] = "Buy",[4] = 1}
         game:GetService("ReplicatedStorage").Remote:FireServer(unpack(args))
         local args = {[1] = "Shop",[2] = "Rank",[3] = "Buy",[4] = 2}

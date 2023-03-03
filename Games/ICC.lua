@@ -54,7 +54,7 @@ function AutoBuyEnergy()
     spawn(function()
     while getgenv().AutoBuyEnergy == true do 
         wait(1)
-        loadstring(game:HttpGet("https://pastebin.com/raw/Ws3T12Qj
+        loadstring(game:HttpGet("https://pastebin.com/raw/Ws3T12Qj"))()
 end
 end)
 end
